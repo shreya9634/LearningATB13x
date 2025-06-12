@@ -2,26 +2,17 @@ package ex_01_Java_Basic;
 
 public class Lab0003_Printf {
     public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        int c = 3;
-        int d = 4;
-        int e = 5;
-        int f = 6;
-        int g = 7;
-        int h = 8;
-        int i = 9;
-        int j = 10;
-        System.out.printf("%d x %d = %d",9,1,9).println();
-        System.out.printf("%d x %d = %d",9,2,18).println();
-        System.out.printf("%d x %d = %d",9,3,27).println();
-        System.out.printf("%d x %d = %d",9,4,36).println();
-        System.out.printf("%d x %d = %d",9,5,45).println();
-        System.out.printf("%d x %d = %d",9,6,54).println();
-        System.out.printf("%d x %d = %d",9,7,63).println();
-        System.out.printf("%d x %d = %d",9,8,72).println();
-        System.out.printf("%d x %d = %d",9,9,81).println();
-        System.out.printf("%d x %d = %d",9,10,90).println();
+        int num = 9;
+        System.out.printf("%d x %d = %d",num,1,num).println();
+        System.out.printf("%d x %d = %d",num,2,num*2).println();
+        System.out.printf("%d x %d = %d",num,3,num*3).println();
+        System.out.printf("%d x %d = %d",num,4,num*4).println();
+        System.out.printf("%d x %d = %d",num,5,num*5).println();
+        System.out.printf("%d x %d = %d",num,6,num*6).println();
+        System.out.printf("%d x %d = %d",num,7,num*7).println();
+        System.out.printf("%d x %d = %d",num,8,num*8).println();
+        System.out.printf("%d x %d = %d",num,9,num*9).println();
+        System.out.printf("%d x %d = %d",num,10,num*10).println();
 
     }
 }
